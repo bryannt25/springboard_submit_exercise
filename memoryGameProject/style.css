@@ -1,0 +1,74 @@
+/* styling only working on 1920x1080p for this project */
+
+/* background color set */
+body{
+  background-color: rgb(34, 28, 102);
+}
+/* styling and positioning for title */
+h1{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  top:-50px;
+}
+/* styling and positioning for game container */
+#game{
+  position: absolute;
+  /* border: 5px solid white; */
+  scale: 50%;
+  text-align: center;
+  width: 2500px;
+  left: -33%;
+  top: -240px;
+}
+/* styling for game cards within container */
+#game div {
+  border: 1px solid white;
+  width: 275px;
+  height: 400px;
+  margin: 100px;
+  display: inline-block;
+  
+}
+/* positioning scorebaord */
+#scoreboard{
+  position: absolute;
+  left:8%;
+  top: 88%;
+}
+/* styling for h2 elements (score text) */
+h2{
+  color: white;
+  font-size: 55px;
+  display: inline;
+}
+/* high score text positioning */
+#high-score-text{
+  position: relative;
+  left: 30%;
+}
+
+/* initial card background images set to question mark image */
+.game-card{
+  background-image: url(imgs/question_mark.jpg);
+}
+/* core buttons div is positioned */
+#core-buttons{
+  position: absolute;
+  left: 60%;
+  top: 88%;
+
+}
+/* styling for each core button is set */
+.core-btn{
+  font-size: 55px;
+  background-color: lightblue;
+  padding-right: 15px;
+  border-radius: 20px;
+}
+/* restart button position is set */
+#restart-btn{
+ position: absolute;
+ margin-left: 40px;
+}
